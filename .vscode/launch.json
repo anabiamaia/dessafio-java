@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch StockApplication",
+            "request": "launch",
+            "mainClass": "com.stock.stock.StockApplication",
+            "projectName": "stock"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UserApplication<user>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.user.user.UserApplication",
+            "projectName": "user",
+            "args": ""
+        }
+    ]
+}
